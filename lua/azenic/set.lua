@@ -12,5 +12,12 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 0
 vim.opt.expandtab = true
 vim.opt.backspace = "indent,eol,start"
+vim.opt.shiftwidth = 4
+vim.g.gruvbox_baby_transparent_mode = 1
 
 vim.g.mapleader = " "
+
+vim.opt.backup = false
+vim.opt.writebackup = false
+vim.opt.updatetime = 300
+vim.opt.signcolumn = "yes"
