@@ -4,21 +4,24 @@ vim.call('plug#begin', '~/AppData/Local/nvim/plugged')
 Plug 'junegunn/fzf.vim'
 Plug('junegunn/fzf', {['do'] = vim.fn['fzf#install']})
 
-
-
 Plug ('neoclide/coc.nvim', {branch = 'release'})
 Plug 'jiangmiao/auto-pairs'
 
-Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
-
-Plug 'mcchrish/zenbones.nvim'
-Plug 'folke/tokyonight.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'dart-lang/dart-vim-plugin'
+
+-- File tree
 Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
+
+-- Theme
 Plug 'Yazeed1s/oh-lucy.nvim'
+
+-- Bottom status bar
+Plug 'feline-nvim/feline.nvim'
+
+-- Git integration
+Plug 'lewis6991/gitsigns.nvim'
 
 vim.call('plug#end')

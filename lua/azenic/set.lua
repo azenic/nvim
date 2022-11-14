@@ -8,6 +8,7 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.incsearch = true
 vim.opt.undofile = true
+vim.opt.termguicolors = true
 
 -- Identation options
 vim.opt.tabstop = 4
