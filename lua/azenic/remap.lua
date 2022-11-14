@@ -1,6 +1,7 @@
 local nnoremap = require("azenic.keymap").nnoremap
 nnoremap ("<leader>fe", "<cmd>CocCommand flutter.emulators<CR>")
 nnoremap ("<leader>ff", "<cmd>FZF<CR>")
+nnoremap ("<leader>b", "<cmd>Neotree reveal<CR>")
 --- Coc binds
 --- Use <c-space> to trigger completion.
 local keyset = vim.keymap.set
@@ -36,4 +37,5 @@ keyset("n", "<C-h>", "<C-w>h", {noremap = true, silent = true})
 keyset("n", "<C-j>", "<C-w>j", {noremap = true, silent = true})
 keyset("n", "<C-k>", "<C-w>k", {noremap = true, silent = true})
 keyset("n", "<C-l>", "<C-w>l", {noremap = true, silent = true})
+
 
