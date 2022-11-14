@@ -1,6 +1,5 @@
 local nnoremap = require("azenic.keymap").nnoremap
 nnoremap ("<leader>fe", "<cmd>CocCommand flutter.emulators<CR>")
-nnoremap ("<C-b>", "<cmd>NERDTreeToggle<CR>")
 nnoremap ("<leader>ff", "<cmd>FZF<CR>")
 
 --- Coc binds
@@ -18,4 +17,10 @@ keyset("n", "gi", "<Plug>(coc-implementation)", {silent = true})
 keyset("n", "gr", "<Plug>(coc-references)", {silent = true})
 keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
 keyset("n", "<leader>qf", "<Plug>(coc-fix-current)", opts)
+
+-- Moving between windows
+keyset("n", "<C-h>", "<C-w>h", {noremap = true, silent = true})
+keyset("n", "<C-j>", "<C-w>j", {noremap = true, silent = true})
+keyset("n", "<C-k>", "<C-w>k", {noremap = true, silent = true})
+keyset("n", "<C-l>", "<C-w>l", {noremap = true, silent = true})
 

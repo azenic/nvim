@@ -1,9 +1,3 @@
-require("tokyonight").setup({
-        style = "night",
-        terminal_colors = true,
-        styles = {
-                comments = {italic = false},
-                keywords = {italic = false},
-        }
-})
-vim.cmd[[colorscheme tokyonight]]
+vim.g.oh_lucy_evening_italic_functions = false
+vim.g.oh_lucy_evening_italic_comments = false
+vim.cmd[[colorscheme oh-lucy-evening]]
