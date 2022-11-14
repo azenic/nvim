@@ -11,7 +11,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'dart-lang/dart-vim-plugin'
 
 -- File tree
-Plug 'nvim-neo-tree/neo-tree.nvim'
+Plug 'nvim-tree/nvim-tree.lua'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
 

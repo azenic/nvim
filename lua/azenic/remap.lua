@@ -31,7 +31,7 @@ keyset("n", "gi", "<Plug>(coc-implementation)", {silent = true})
 keyset("n", "gr", "<Plug>(coc-references)", {silent = true})
 keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
 keyset("n", "<leader>qf", "<Plug>(coc-fix-current)", opts)
-
+keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], {silent = true, expr = true})
 -- Moving between windows
 keyset("n", "<C-h>", "<C-w>h", {noremap = true, silent = true})
 keyset("n", "<C-j>", "<C-w>j", {noremap = true, silent = true})

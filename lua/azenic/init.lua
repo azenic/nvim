@@ -1,5 +1,5 @@
 require("azenic.set")
 require("azenic.remap")
 require("azenic.vim-plug")
-require("azenic.neo-tree")
+require("azenic.nvim-tree")
 require("azenic.feline")
