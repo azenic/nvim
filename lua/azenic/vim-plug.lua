@@ -16,7 +16,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
 -- Theme
-Plug 'jacoborus/tender.vim'
+Plug 'folke/tokyonight.nvim'
 
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
