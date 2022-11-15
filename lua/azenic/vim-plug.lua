@@ -16,7 +16,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
 -- Theme
-Plug 'Yazeed1s/oh-lucy.nvim'
+Plug 'EdenEast/nightfox.nvim'
 
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
