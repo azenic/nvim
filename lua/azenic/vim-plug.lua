@@ -14,12 +14,15 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
 
 -- Theme
 Plug 'folke/tokyonight.nvim'
+Plug 'Yazeed1s/oh-lucy.nvim'
 
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
+Plug 'lewis6991/gitsigns.nvim'
 
 -- Git integration
 Plug 'lewis6991/gitsigns.nvim'
