@@ -18,7 +18,8 @@ Plug 'nvim-tree/nvim-web-devicons'
 
 -- Theme
 Plug 'folke/tokyonight.nvim'
-Plug 'Yazeed1s/oh-lucy.nvim'
+Plug 'aktersnurra/no-clown-fiesta.nvim'
+Plug 'doums/darcula'
 
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
