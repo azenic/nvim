@@ -15,12 +15,11 @@ Plug 'nvim-tree/nvim-tree.lua'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
+Plug 'nvim-treesitter/nvim-treesitter'
 
 -- Theme
-Plug 'folke/tokyonight.nvim'
-Plug 'aktersnurra/no-clown-fiesta.nvim'
-Plug 'doums/darcula'
-
+Plug 'shaunsingh/nyoom.nvim'
+Plug 'rose-pine/neovim'
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
 Plug 'lewis6991/gitsigns.nvim'
