@@ -18,8 +18,10 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-treesitter/nvim-treesitter'
 
 -- Theme
-Plug 'shaunsingh/nyoom.nvim'
 Plug 'rose-pine/neovim'
+Plug 'folke/tokyonight.nvim'
+Plug 'B4mbus/oxocarbon-lua.nvim'
+
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
 Plug 'lewis6991/gitsigns.nvim'
