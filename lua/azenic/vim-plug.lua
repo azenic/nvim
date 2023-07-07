@@ -18,9 +18,7 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-treesitter/nvim-treesitter'
 
 -- Theme
-Plug 'rose-pine/neovim'
-Plug 'folke/tokyonight.nvim'
-Plug 'B4mbus/oxocarbon-lua.nvim'
+Plug 'fenetikm/falcon'
 
 -- Bottom status bar
 Plug 'feline-nvim/feline.nvim'
