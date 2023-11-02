@@ -3,6 +3,9 @@ vim.g.mapleader = " "
 -- hotkey for vim.cmd.Ex 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- toggle nvim tree visibility
+vim.keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>", {noremap = true})
+
 -- move highlighted lines up down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
