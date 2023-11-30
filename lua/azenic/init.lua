@@ -1,2 +1,2 @@
-require("azenic.remap")
 require("azenic.set")
+require("azenic.remap")
